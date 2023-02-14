@@ -1,0 +1,23 @@
+{
+	"name": "google_search_clone",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pauloWeslleY/google_search_clone.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/pauloWeslleY/google_search_clone/issues"
+	},
+	"homepage": "https://github.com/pauloWeslleY/google_search_clone#readme",
+	"devDependencies": {
+		"linearicons": "^1.0.2"
+	}
+}
