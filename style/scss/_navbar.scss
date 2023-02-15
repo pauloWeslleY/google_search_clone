@@ -1,0 +1,40 @@
+@use "colors";
+
+// ! Styles NavBar
+
+#link__list {
+	padding-left: 0;
+	margin-bottom: 0;
+	margin-left: 146px;
+
+	li {
+		display: inline-block;
+		padding: 0 11px;
+
+		a {
+			color: colors.$gray-300;
+			font-size: 13px;
+			padding-bottom: 12px;
+
+			display: inline-block;
+
+			&:hover {
+				color: colors.$blue-100;
+			}
+
+			span {
+				display: inline-block;
+				font-size: 16px;
+				margin-right: 3px;
+			}
+		}
+	}
+
+	.active {
+		border-bottom: 3px solid colors.$blue-100;
+
+		a {
+			color: colors.$blue-100;
+		}
+	}
+}
