@@ -1,0 +1,59 @@
+@use "colors";
+
+// [] Styles Header
+
+header {
+	border-bottom: 1px solid colors.$gray-50;
+
+	#input__box {
+		padding-top: 20px;
+		padding-bottom: 9px;
+
+		img {
+			width: 92px;
+			position: absolute;
+			top: 30px;
+			left: 20px;
+		}
+
+		form {
+			display: inline-block;
+			position: relative;
+
+			input {
+				height: 44px;
+				width: 597px;
+				border-radius: 22px;
+				border: 1px solid colors.$gray-100;
+				padding: 0 21px;
+				margin-left: 146px;
+				font-size: 16px;
+
+				&:focus-visible {
+					outline: none;
+				}
+			}
+
+			#search__icon,
+			#mic__icon,
+			#keyboard__icon {
+				position: absolute;
+				top: 14px;
+
+				font-size: 18px;
+			}
+
+			#search__icon {
+				right: 18px;
+			}
+
+			#mic__icon {
+				right: 88px;
+			}
+
+			#keyboard__icon {
+				right: 53px;
+			}
+		}
+	}
+}
