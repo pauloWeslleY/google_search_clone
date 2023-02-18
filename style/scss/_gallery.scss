@@ -1,0 +1,66 @@
+@use "colors";
+
+//[] Styles Gallery
+
+#gallery__hero_box {
+	height: 186px;
+	position: relative;
+
+	#first__image {
+		border-top-left-radius: 10px;
+	}
+
+	#gallery {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+
+		width: 305px;
+		height: 186px;
+
+		position: absolute;
+		top: 0;
+		left: 149px;
+
+		div {
+			flex: 1 1 30%;
+			height: 50%;
+			background-size: cover;
+			background-position: center;
+		}
+
+		#gallery__image1 {
+			background-image: url("../../assets/turing2.jpg");
+		}
+		#gallery__image2 {
+			background-image: url("../../assets/turing3.jpg");
+		}
+		#gallery__image3 {
+			background-image: url("../../assets/turing4.jpg");
+		}
+		#gallery__image4 {
+			background-image: url("../../assets/turing5.jpg");
+		}
+		#gallery__image5 {
+			background-image: url("../../assets/turing6.jpg");
+		}
+		#gallery__image6 {
+			background-image: url("../../assets/turing7.jpg");
+		}
+	}
+
+	#more__image_btn {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		padding: 10px;
+		font-size: 13px;
+		color: colors.$white-100;
+		background-color: colors.$blackAlpha-100;
+		border-top-left-radius: 5px;
+
+		span {
+			margin-right: 5px;
+		}
+	}
+}
